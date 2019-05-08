@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		235353B622832CEB00CB5422 /* CastToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235353AC22832CEB00CB5422 /* CastToolkit.framework */; };
+		235353BB22832CEB00CB5422 /* CastToolkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 235353BA22832CEB00CB5422 /* CastToolkitTests.m */; };
+		235353D222832E2800CB5422 /* GCKUICastButton+CTDefaultCastButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 235353CE22832E2700CB5422 /* GCKUICastButton+CTDefaultCastButton.m */; };
+		235353D322832E2800CB5422 /* CastToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 235353CF22832E2700CB5422 /* CastToolkit.h */; };
+		235353D422832E2800CB5422 /* GCKUICastButton+CTDefaultCastButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 235353D022832E2700CB5422 /* GCKUICastButton+CTDefaultCastButton.h */; };
+		235353D522832E2800CB5422 /* CastToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 235353D122832E2700CB5422 /* CastToolkit.m */; };
+		5BB20F88F7C945089CBFD950 /* Pods_CastToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB0BE714EA08E3DCFF48DB3 /* Pods_CastToolkit.framework */; };
+		905D3C6C29504D8BB3902A4F /* Pods_CastToolkit_CastToolkitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C505139700D0638101E5792 /* Pods_CastToolkit_CastToolkitTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		235353B722832CEB00CB5422 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 235353A322832CEB00CB5422 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 235353AB22832CEB00CB5422;
+			remoteInfo = CastToolkit2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DB0BE714EA08E3DCFF48DB3 /* Pods_CastToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CastToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		235353AC22832CEB00CB5422 /* CastToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CastToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		235353B022832CEB00CB5422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		235353B522832CEB00CB5422 /* CastToolkitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CastToolkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		235353BA22832CEB00CB5422 /* CastToolkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CastToolkitTests.m; sourceTree = "<group>"; };
+		235353BC22832CEB00CB5422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		235353CE22832E2700CB5422 /* GCKUICastButton+CTDefaultCastButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GCKUICastButton+CTDefaultCastButton.m"; sourceTree = "<group>"; };
+		235353CF22832E2700CB5422 /* CastToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CastToolkit.h; sourceTree = "<group>"; };
+		235353D022832E2700CB5422 /* GCKUICastButton+CTDefaultCastButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GCKUICastButton+CTDefaultCastButton.h"; sourceTree = "<group>"; };
+		235353D122832E2700CB5422 /* CastToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CastToolkit.m; sourceTree = "<group>"; };
+		343166B00EB4EDB8F08E74AF /* Pods-CastToolkit-CastToolkitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CastToolkit-CastToolkitTests.debug.xcconfig"; path = "Target Support Files/Pods-CastToolkit-CastToolkitTests/Pods-CastToolkit-CastToolkitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C505139700D0638101E5792 /* Pods_CastToolkit_CastToolkitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CastToolkit_CastToolkitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		803CE0DCF05DC53EE4B03AEB /* Pods-CastToolkit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CastToolkit.debug.xcconfig"; path = "Target Support Files/Pods-CastToolkit/Pods-CastToolkit.debug.xcconfig"; sourceTree = "<group>"; };
+		D36416BA511A8EF2FA31DF69 /* Pods-CastToolkit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CastToolkit.release.xcconfig"; path = "Target Support Files/Pods-CastToolkit/Pods-CastToolkit.release.xcconfig"; sourceTree = "<group>"; };
+		DF5FFDE76B0086C993C1A665 /* Pods-CastToolkit-CastToolkitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CastToolkit-CastToolkitTests.release.xcconfig"; path = "Target Support Files/Pods-CastToolkit-CastToolkitTests/Pods-CastToolkit-CastToolkitTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		235353A922832CEB00CB5422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB20F88F7C945089CBFD950 /* Pods_CastToolkit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		235353B222832CEB00CB5422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235353B622832CEB00CB5422 /* CastToolkit.framework in Frameworks */,
+				905D3C6C29504D8BB3902A4F /* Pods_CastToolkit_CastToolkitTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		235353A222832CEB00CB5422 = {
+			isa = PBXGroup;
+			children = (
+				235353AE22832CEB00CB5422 /* CastToolkit */,
+				235353B922832CEB00CB5422 /* CastToolkitTests */,
+				235353AD22832CEB00CB5422 /* Products */,
+				E3E5C5AB9135F6F008DB10A5 /* Pods */,
+				3180C577B3F67AA660DAC898 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		235353AD22832CEB00CB5422 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				235353AC22832CEB00CB5422 /* CastToolkit.framework */,
+				235353B522832CEB00CB5422 /* CastToolkitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		235353AE22832CEB00CB5422 /* CastToolkit */ = {
+			isa = PBXGroup;
+			children = (
+				235353CF22832E2700CB5422 /* CastToolkit.h */,
+				235353D122832E2700CB5422 /* CastToolkit.m */,
+				235353D022832E2700CB5422 /* GCKUICastButton+CTDefaultCastButton.h */,
+				235353CE22832E2700CB5422 /* GCKUICastButton+CTDefaultCastButton.m */,
+				235353B022832CEB00CB5422 /* Info.plist */,
+			);
+			path = CastToolkit;
+			sourceTree = "<group>";
+		};
+		235353B922832CEB00CB5422 /* CastToolkitTests */ = {
+			isa = PBXGroup;
+			children = (
+				235353BA22832CEB00CB5422 /* CastToolkitTests.m */,
+				235353BC22832CEB00CB5422 /* Info.plist */,
+			);
+			path = CastToolkitTests;
+			sourceTree = "<group>";
+		};
+		3180C577B3F67AA660DAC898 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DB0BE714EA08E3DCFF48DB3 /* Pods_CastToolkit.framework */,
+				7C505139700D0638101E5792 /* Pods_CastToolkit_CastToolkitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3E5C5AB9135F6F008DB10A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				803CE0DCF05DC53EE4B03AEB /* Pods-CastToolkit.debug.xcconfig */,
+				D36416BA511A8EF2FA31DF69 /* Pods-CastToolkit.release.xcconfig */,
+				343166B00EB4EDB8F08E74AF /* Pods-CastToolkit-CastToolkitTests.debug.xcconfig */,
+				DF5FFDE76B0086C993C1A665 /* Pods-CastToolkit-CastToolkitTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		235353A722832CEB00CB5422 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235353D322832E2800CB5422 /* CastToolkit.h in Headers */,
+				235353D422832E2800CB5422 /* GCKUICastButton+CTDefaultCastButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		235353AB22832CEB00CB5422 /* CastToolkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 235353C022832CEB00CB5422 /* Build configuration list for PBXNativeTarget "CastToolkit" */;
+			buildPhases = (
+				52464A3518EF526575E28E05 /* [CP] Check Pods Manifest.lock */,
+				235353A722832CEB00CB5422 /* Headers */,
+				235353A822832CEB00CB5422 /* Sources */,
+				235353A922832CEB00CB5422 /* Frameworks */,
+				235353AA22832CEB00CB5422 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CastToolkit;
+			productName = CastToolkit2;
+			productReference = 235353AC22832CEB00CB5422 /* CastToolkit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		235353B422832CEB00CB5422 /* CastToolkitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 235353C322832CEB00CB5422 /* Build configuration list for PBXNativeTarget "CastToolkitTests" */;
+			buildPhases = (
+				E191C2941AC9D209E99DEAEF /* [CP] Check Pods Manifest.lock */,
+				235353B122832CEB00CB5422 /* Sources */,
+				235353B222832CEB00CB5422 /* Frameworks */,
+				235353B322832CEB00CB5422 /* Resources */,
+				F677C38C22621387E213E356 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				235353B822832CEB00CB5422 /* PBXTargetDependency */,
+			);
+			name = CastToolkitTests;
+			productName = CastToolkit2Tests;
+			productReference = 235353B522832CEB00CB5422 /* CastToolkitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		235353A322832CEB00CB5422 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = 0xTim;
+				TargetAttributes = {
+					235353AB22832CEB00CB5422 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					235353B422832CEB00CB5422 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 235353A622832CEB00CB5422 /* Build configuration list for PBXProject "CastToolkit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 235353A222832CEB00CB5422;
+			productRefGroup = 235353AD22832CEB00CB5422 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				235353AB22832CEB00CB5422 /* CastToolkit */,
+				235353B422832CEB00CB5422 /* CastToolkitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		235353AA22832CEB00CB5422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		235353B322832CEB00CB5422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52464A3518EF526575E28E05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CastToolkit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E191C2941AC9D209E99DEAEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CastToolkit-CastToolkitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F677C38C22621387E213E356 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CastToolkit-CastToolkitTests/Pods-CastToolkit-CastToolkitTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CastToolkit-CastToolkitTests/Pods-CastToolkit-CastToolkitTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CastToolkit-CastToolkitTests/Pods-CastToolkit-CastToolkitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		235353A822832CEB00CB5422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235353D222832E2800CB5422 /* GCKUICastButton+CTDefaultCastButton.m in Sources */,
+				235353D522832E2800CB5422 /* CastToolkit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		235353B122832CEB00CB5422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235353BB22832CEB00CB5422 /* CastToolkitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		235353B822832CEB00CB5422 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 235353AB22832CEB00CB5422 /* CastToolkit */;
+			targetProxy = 235353B722832CEB00CB5422 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		235353BE22832CEB00CB5422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		235353BF22832CEB00CB5422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		235353C122832CEB00CB5422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 803CE0DCF05DC53EE4B03AEB /* Pods-CastToolkit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = D99YKTGM6Y;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CastToolkit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.0xtim.CastToolkit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		235353C222832CEB00CB5422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D36416BA511A8EF2FA31DF69 /* Pods-CastToolkit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = D99YKTGM6Y;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CastToolkit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.0xtim.CastToolkit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		235353C422832CEB00CB5422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 343166B00EB4EDB8F08E74AF /* Pods-CastToolkit-CastToolkitTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D99YKTGM6Y;
+				INFOPLIST_FILE = CastToolkitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.0xtim.CastToolkitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		235353C522832CEB00CB5422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF5FFDE76B0086C993C1A665 /* Pods-CastToolkit-CastToolkitTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D99YKTGM6Y;
+				INFOPLIST_FILE = CastToolkitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.0xtim.CastToolkitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		235353A622832CEB00CB5422 /* Build configuration list for PBXProject "CastToolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				235353BE22832CEB00CB5422 /* Debug */,
+				235353BF22832CEB00CB5422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		235353C022832CEB00CB5422 /* Build configuration list for PBXNativeTarget "CastToolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				235353C122832CEB00CB5422 /* Debug */,
+				235353C222832CEB00CB5422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		235353C322832CEB00CB5422 /* Build configuration list for PBXNativeTarget "CastToolkitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				235353C422832CEB00CB5422 /* Debug */,
+				235353C522832CEB00CB5422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 235353A322832CEB00CB5422 /* Project object */;
+}

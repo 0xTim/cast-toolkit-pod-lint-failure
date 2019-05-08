@@ -27,23 +27,7 @@ Pod::Spec.new do |s|
   s.header_dir   = 'CastToolkit'
   s.public_header_files = 'CastToolkit/*.h'
   s.source_files = 'CastToolkit/*.{h,m}'
-  # s.exclude_files = 'BBCCastToolkitTests/**/*.*', 'CastToolkitTestsHarness/**/*.*'
-
-  # s.default_subspec = 'Lite'
-
-  # s.subspec 'Lite' do |lite|
-  #   # subspec for users who don't want Echo or SMP
-  # end
-  #
-  # s.subspec 'Echo' do |echo|
-  #   echo.dependency 'echo-client-ios-swift', '~> 5'
-  #   echo.xcconfig = { 'OTHER_CFLAGS' => '$(inherited) -DECHO_STATS_IMPLEMENTATION' }
-  # end
-  #
-  # s.subspec 'SMP' do |smp|
-  #   smp.dependency 'smp-ios', '~> 35'
-  #   smp.xcconfig = { 'OTHER_CFLAGS' => '$(inherited) -DSMP_IMPLEMENTATION' }
-  # end
+  # s.static_framework = true
 
   s.dependency 'google-cast-sdk', '4.2.0'
 

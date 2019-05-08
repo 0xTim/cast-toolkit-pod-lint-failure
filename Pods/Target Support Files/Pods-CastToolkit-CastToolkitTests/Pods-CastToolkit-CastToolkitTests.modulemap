@@ -1,0 +1,6 @@
+framework module Pods_CastToolkit_CastToolkitTests {
+  umbrella header "Pods-CastToolkit-CastToolkitTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

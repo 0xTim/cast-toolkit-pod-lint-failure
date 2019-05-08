@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-CastToolkit-CastToolkitTests/Pods-CastToolkit-CastToolkitTests-frameworks.sh
+${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.2.0/GoogleCast.framework
+${BUILT_PRODUCTS_DIR}/OCMock/OCMock.framework
